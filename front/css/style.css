@@ -1,6 +1,9 @@
 body{
     margin: 0px;
     background-color: gray;
+    background-image: url(../images/Fundo.jpg);
+    background-size: cover;
+    background-position: center;
 }
 #principal{
     background-color: white;
@@ -20,4 +23,37 @@ body{
     padding-top: 13px;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#comp-01{
+    width: 200px;
+    position: relative;
+    left: 10%;
+    top: 10%;
+}
+#img-01{
+    width: 200px;
+    position: relative;
+
+}
+#comp-02{
+    width: 200px;
+    position: relative;
+    left: 40%;
+    bottom: 20%;
+    text-align: center;
+}
+#img-02{
+    width: 120px;
+    
+    position: relative;
+}
+#comp-03{
+    width: 200px;
+    position: relative;
+    left: 70%;
+    bottom: 38%;
+}
+#img-03{
+    width: 120px;
+    position: relative;
 }
